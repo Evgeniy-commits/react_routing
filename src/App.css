@@ -3,11 +3,11 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: reduce) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* ************************************************* */
+nav
+{
+  background-color: #383c44;
+}
+nav ul
+{ 
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 16px;
+}
+nav ul a
+{
+  color: aliceblue;
+  font-size: 24px;
 }
